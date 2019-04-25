@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    align-self: auto;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+/* ************************************************ header ********************************************** */
+
+.main{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/Path1.png) no-repeat center;
+    background-size: cover;
+    left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.main-overlay{
+    height: 60vh;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.menu{
+    width: 50%;
+    
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu-link{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: inherit;
+}
+
+.edu{
+    color: fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.header-btn{
+    border: 1px solid green;
+    padding: 13px 40px;
+    border-radius: 100px;
+    margin: 2em;
+    background-color: green;
+    color: #fff;
+}
+
+.main-text h1{
+    margin: 0;
+    font-size: 45px;
+}
+   .menu a:hover{
+      color: #000;
+      background-color: #fff;
+      border-radius: 10px;
+      transition: color .5s;
+}
+
+/* ************************************************ section 1 ********************************************** */
+
+.first-sc{
+    
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem;
+}
+
+.first-sc-img{
+    width: 40%;
+}
+
+.first-sc-img img{
+    width: 35rem;
+    height: 35rem;
+}
+
+.first-sc-main{
+    width: 40%;
+    margin-top: 50px;
+}
+
+.d{
+    margin-bottom: 5vh;
+    margin-top: 5hv;
+}
+
+.first-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+
+
+.first-img p {
+    padding-left: 3%;
+    font-size: 15px;
+}
+
+/* ************************************************ section 2 ********************************************** */
+
+.features{
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+.features-header{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.features-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 2rem;
+}
+
+.features-div{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+    margin: 1.5rem;
+    text-align: center;
+    width: 25%;
+}
+
+.features-div p{
+   
+   text-align: center;
+}
+
+.features-img{
+    height: 150px;
+    width: 150px;
+    padding: 30px 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.audio-video{
+    padding: 45px 15px;
+}
+
+/* ************************************************ section 3 ********************************************** */
+
+.programs{
+    background-color: white;
+    height: 100%;
+    
+}
+
+.programs-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    perspective: 1000px;
+    
+}
+.card:hover .front {
+    transform: rotateY(180deg);
+    
+}
+.card:hover .back {
+    transform: rotateY(360deg);
+}
+.front, .back{
+    position: absolute;
+    transition: 2s;
+    backface-visibility: hidden;
+}
+
+.back{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background: url(images/epam.jpg) no-repeat;
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+.programs-div-wrap{
+ 
+    background-color: green;
+    color: white;
+    height: 350px;
+    width: 350px; 
+    margin: 2rem;
+}
+
+.programs-div-wrap:hover{
+    background-color: #fff;
+}
+
+.programs-div1, .programs-div2, .programs-div3, .programs-div4, .programs-div5, .programs-div6{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.programs-div1{
+    background: url(images/Rectangle55.png) no-repeat;   
+}
+
+.programs-div2{
+    background: url(images/Rectangle56.png) no-repeat;    
+}
+
+.programs-div3{
+    background: url(images/Rectangle57.png) no-repeat;
+}
+
+
+.programs-div4{
+    background: url(images/Rectangle58.png) no-repeat;
+}
+
+.programs-div5{
+    background: url(images/Rectangle59.png) no-repeat;
+}
+
+.programs-div6{
+    background: url(images/Rectangle60.png) no-repeat;
+}
+
+/* ************************************************ section 4 ********************************************** */
+
+.mail{
+    font-size: 20px;
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: url(images/Rectangle65.png)  no-repeat;
+    color: white;
+    background-size: cover;
+    left: 0; top: 0;
+    z-index: 0;
+}
+
+.mail input[type="email"]{
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 250px;
+    background: transparent;
+    outline: none;
+}
+
+
+.mail label{
+    padding-right: 1.5rem;
+}
+
+/* ************************************************ footer ********************************************** */
+
+.footer{
+    color: #fff;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.footer .main{
+    background: none;
+}
+
+
+

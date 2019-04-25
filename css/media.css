@@ -1,0 +1,109 @@
+@media screen and (max-width: 768px){
+    html{
+        font-size: 12px;
+    }
+
+    .visible{
+        display: none;
+    }
+
+    .m-menu-link{
+        display: block;
+    }
+
+    .first-sc{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .first-sc-img{
+        padding-right: 400px;
+    }
+
+    .features-blocks{
+        flex-direction: column;
+    }
+
+    .programs-blocks{
+        flex-direction: column;
+    }
+
+    .programs-div-wrap{
+        height: 200px;
+        width: 200px; 
+    }
+
+    .mail{
+        margin: 2rem auto 0 auto;
+        font-size: 12px;
+    }
+
+    .mail label{
+        font-size: 20px;
+        padding-top: 30px;
+        text-align: center;
+        margin-left: 15px;
+        
+    }
+
+    .mail input, label{
+        display: block;
+    }
+
+    .mail input[type="email"]{
+        margin: 1.5rem;
+
+        
+        
+    }
+
+    .mail input[type="submit"]{
+        margin: 2rem;
+        margin-left: 6rem;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        padding: 0;
+    }
+    .for-footer{
+       
+        text-align: center;
+        flex-direction: column;
+        padding: 30px 0 0 0;
+    }
+    .menu li{
+        margin: 5px 0 0 0;
+    
+    }
+    .menu li:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 0.8px;
+        background-color: #c5bcbc;
+        margin-top: 5px;
+        
+
+    }
+    .menu {
+        width: 100%;
+     
+    }
+
+    .header{
+        padding-top: 10px;
+    }
+    .item {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin-bottom: 2px;
+        background-color: #fff;
+    }
+    .first-img p {
+        padding-left: 3%;
+        font-size: 20px;
+    }
+}
